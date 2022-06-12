@@ -1,0 +1,26 @@
+.input-search{
+    background: #ccc;
+    border: 1px solid #7c7c7c;
+    color:rgb(36, 22, 22);
+    border-radius: 15px;
+    margin-bottom: 8px;
+    font-size: 1.1rem;
+    width: 310px;
+    text-align: left;
+    outline: none;
+    padding: 0 18px;
+    margin-left: 10px;
+    box-shadow: rgb(60 64 67 / 10%) 0px 1px 2px 0px, rgb(60 64 67 / 15%) 0px 2px 6px 2px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.input-search:hover{
+    width: 350px;
+    border: 1px solid #247ed1;
+}
+
+.input-search:focus{
+    width: 350px;
+    border: 1px solid #247ed1;
+}

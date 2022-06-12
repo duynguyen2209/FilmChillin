@@ -1,0 +1,43 @@
+.Footer{
+    height: 200px;
+    width: 100%;
+    background-color: #ccc;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size:1rem
+}
+
+.wrapper-footer{
+    display: block;
+}
+
+.footer_contact{
+    text-align: center;
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    margin-top: 10px;
+    text-decoration: underline;
+    font-style: italic;
+}
+
+.footer_logo{
+    text-align: center;
+    margin-top: 10px;
+}
+
+.footer_logo_icon{
+    font-size: 3rem;
+    /* width: 50px;
+    height: 50px; */
+    padding:10px;
+    
+}
+
+.footer_logo_icon:hover{
+    background-color: #a9ccde;
+    border-radius: 40%;
+    transform:  scale(1.2);
+    transition: 0.3s;
+}

@@ -1,0 +1,33 @@
+.movie-image{
+   border-radius: 20px;
+   height: 400px;
+   width: 100%;
+}
+
+.movie-image:hover{
+    transform: translateY(-3px);
+    /* transform: scaleY(1.01); */
+    transition: 0.5s;
+    opacity: 0.93;
+    z-index: 10;
+}
+
+.title-film{
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 10px;
+    font-size: 1rem;
+    color: #333;
+    white-space: nowrap;
+    overflow: hidden !important;
+    text-overflow: ellipsis;
+}
+
+.rating-film{
+    color: red;
+    display: flex;
+    align-items: center;
+    font-size: 1rem;
+    text-align: center;
+    justify-content: center;
+}
