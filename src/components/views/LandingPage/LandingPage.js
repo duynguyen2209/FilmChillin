@@ -39,11 +39,11 @@ function LandingPage() {
         // fetchMovies(endpoint);
     }
 
-    const newMovie = Movies.slice(0,12);
+    const newMovie = Movies.slice(5,9);
     console.log('new',newMovie);
 
     return (
-        <div style={{ width:'100%', margin: 0 }}>
+        <div style={{ width:'100%', margin: 0 ,background:'#b5bebd'}}>
 
             {/* Movie Main Image */}
             {Movies[0] &&                   
@@ -53,7 +53,7 @@ function LandingPage() {
             {console.log('duyyyyy',Movies)}
             {/* Body */}
             <div className='landing_body'>
-                <Title level={2} ><div className='movie-type-title'> <AiFillVideoCamera className='film-icon'/> Movies Nomitions</div></Title>
+                <Title level={2} ><div className='movie-type-title'> <AiFillVideoCamera className='film-icon'/> Movies Awards</div></Title>
                 <hr />
                 {/* Grid Cards */}
                 <Row gutter={[16, 16]}>
@@ -78,7 +78,7 @@ function LandingPage() {
             </div>
 
             <div className='landing_body'>
-                <Title level={2} ><div className='movie-type-title'> <AiFillVideoCamera className='film-icon'/>Top 5</div></Title>
+                <Title level={2} ><div className='movie-type-title'> <AiFillVideoCamera className='film-icon'/>Top 4</div></Title>
                 <hr />
                 {/* Grid Cards */}
                 <Row gutter={[4, 4]}>
